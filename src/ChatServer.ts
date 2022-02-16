@@ -3,8 +3,8 @@ import cors from 'cors'
 import * as http from 'http'
 import SocketIO from 'socket.io'
 
-import Chat from '../../socket-chat/src/app/Classes/Chat'
-import Message from '../../socket-chat/src/app/Classes/Message'
+import Chat from '../../socket-chat/src/app/Classes/Chat.js'
+import Message from '../../socket-chat/src/app/Classes/Message.js'
 
 export class ChatServer {
 
