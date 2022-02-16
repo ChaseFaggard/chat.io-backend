@@ -10,7 +10,7 @@
     "dev:build": "tsc -w",
     "dev:run": "nodemon ./dist/server/src/server.js",
     "dev": "concurrently npm:dev:*",
-    "deploy": "git add . && git commit -m 'Latest deployment' && git push origin main",
+    "deploy": "git add . && git commit -m '${npm_config_comment}' && git push origin main",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
